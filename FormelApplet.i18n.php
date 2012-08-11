@@ -30,3 +30,10 @@ $messages['de'] = array(
 	'formelapplet-desc' => 'Fügt [http://wiki.formelapplet.de FormelApplets] zu Seiten hinzu',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'formelapplet-desc' => 'ページに数式アプレット [http://wiki.formelapplet.de FormelApplet] を追加する',
+);
+
