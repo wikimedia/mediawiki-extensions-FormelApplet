@@ -3,22 +3,23 @@
  * FormelApplet extension
  *
  * @author Rudolf Grossmann
- * @version 1.3a
+ * @version 1.3b
  * usegf04 ='true' causes gf04.jar to be used instead of gf03.jar
  */
- 
-$fa_version = "1.3a";
- 
+
+$fa_version = "1.3b";
+
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
- 
+
 //Avoid unstubbing $wgParser too early on modern (1.12+) MW versions, as per r35980
 if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
         $wgHooks['ParserFirstCallInit'][] = 'fa_AppletSetup';
 } else {
         $wgExtensionFunctions[] = 'fa_AppletSetup';
 }
- 
+$wgExtensionMessagesFiles['FormelApplet'] = dirname( __FILE__ ) . '/FormelApplet.i18n.php';
+
 $wgExtensionCredits['parserhook'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'FormelApplet',
@@ -27,17 +28,17 @@ $wgExtensionCredits['parserhook'][] = array(
 	'descriptionmsg' => 'formelapplet-desc',
 	'version'        => $fa_version
 );
- 
+
 function fa_AppletSetup() {
         global $wgParser;
         $wgParser->setHook( 'formelapplet', 'get_fa_AppletOutput' );
         return true;
 }
- 
+
 function get_fa_AppletOutput( $input, $args, $parser ) {
         global $wgServer; // URL of the WIKI's server
         global $fa_version; // see line 9 of this file
- 
+
         $error_message = "no error"; //will be overwritten, if error occurs
         $debug = 'Debug: ';
         $CRLF = "\r\n";
@@ -47,7 +48,7 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
 
         // Special parameters, not for parameter (name - value) tags. Use lowercase for sake of comparison!
         $special_parameters = array('width', 'height', 'solution', 'term', 'uselocaljar', 'substimage', 'name', 'debug', 'usegf04');
-        $noJavaText = 'Please <a href="http://java.sun.com/getjava">install Java</a> to use this page.';        
+        $noJavaText = wfMessage('formelapplet-nojava');
 
         //Look for parameter 'usegf04'.
         $usegf04 = isset($args['usegf04']) ? $args['usegf04'] : 'false';
@@ -56,28 +57,28 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
         //Look for parameter 'useLocalJar'. Will be overwritten with 'true', if parameter 'filename is used'
         $useLocalJar = isset($args['uselocaljar']) ? $args['uselocaljar'] : '';
         $printDebug = isset($args['debug']) ? $args['debug'] : 'false';
- 
+
         // Look for required parameters width, height,  term/solution
         if( !isset( $args['width'] )   ||
             !isset( $args['height'] )  ||
             !(isset( $args['solution'] ) || isset( $args['term'] ) ) )
             $error_message = "Missing parameter (width or height or term/solution)";
- 
+
         // the following code is of use, if MediaWiki is installed on a local fileserver (wamp, server2go,...)
-        if ( $args['uselocaljar'] == 'true' ) { 
+        if ( $args['uselocaljar'] == 'true' ) {
          // If use of local JAR is wanted (e.g. for testing purposes)
          // The following line is code from http://code.activestate.com/recipes/576595/   "A more reliable DOCUMENT_ROOT"
          $docroot = realpath((getenv('DOCUMENT_ROOT') && ereg('^'.preg_quote(realpath(getenv('DOCUMENT_ROOT'))), realpath(__FILE__))) ? getenv('DOCUMENT_ROOT') : str_replace(dirname(@$_SERVER['PHP_SELF']), '', str_replace(DIRECTORY_SEPARATOR, '/', dirname(__FILE__))));
          $delta = substr(dirname(__FILE__), strlen($docroot));
          $codeBase = $wgServer . $delta;
          # replace backslash by slash
-         $codeBase=str_replace('\\','/',$codeBase); 
+         $codeBase=str_replace('\\','/',$codeBase);
          # add slash at ending
          if (substr($codeBase, strlen($codeBase)-1) != '/') {
            $codeBase = $codeBase . "/";
          }
        }
-       
+
         $output = "<!-- FormelApplet Mediawiki extension " . $fa_version ." by R. Grossmann -->" . $CRLF;  // Output the opening applet tag
          // Add code value to tag
         $is_inputapplet=false; //default
@@ -94,19 +95,19 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
         if (isset( $args['name'] )) {
            $output = $output . " name=" . $quot . htmlspecialchars(strip_tags($args['name'])) . $quot; // Add name value to tag
          }
- 
+
         $output = $output . " codebase=" . $quot . $codeBase . $quot; // Add codebase value to tag
         $output = $output . " width=" . $quot . htmlspecialchars(strip_tags($args['width'])) . $quot; // Add width value to tag
         $output = $output . " height=" . $quot . htmlspecialchars(strip_tags($args['height'])) . $quot; // Add height value to tag
         $output = $output . " archive=" . $quot. $appletBinary . $quot. " >"; // Add archive value to tag
- 
+
         $head = substr($solution_or_term, 0, 4);
         if (strtoupper($head)!='ZIP-') {
           //Magic head "ZIP-" not found. Value of parameter solution/term does not contain ZIP-file but filename.
           $filename = $solution_or_term;
           $debug .= '<p>Parameter solution/term contains filename: ' . $filename . '</p>' . $CRLF;
           $image= wfLocalFile($filename) ; // Compatibility with MediaWiki >= 1.18.x
- 
+
           // Get the MediaWiki path of the file
           if (isset( $image )) {
             $fileURL = $image->getURL();
@@ -118,7 +119,7 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
              $error = "File " . $filename . " not found.";
           }
         }
- 
+
         if ($error_message == 'no error') {
         // Assemble the applet tag
             if ($is_inputapplet) {
@@ -127,7 +128,7 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
               $output = $output . "<param name=" . $quot . "term" . $quot;
             }
             $output = $output . " value=" . $quot . htmlspecialchars(strip_tags($solution_or_term)) . $quot . ">\n";
-     
+
             // Add code for  non-special parameters
             foreach($args as $par_name => $par_value) {
               if (! in_array(strtolower($par_name), $special_parameters)){

@@ -14,6 +14,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'formelapplet-desc' => 'Add [http://wiki.formelapplet.de FormelApplet] applets to pages',
+	'formelapplet-nojava' => 'Please install [http://java.com Java] to use this page.',
 );
 
 /** Message documentation (Message documentation)
@@ -21,6 +22,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'formelapplet-desc' => '{{desc}}',
+	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.',
 );
 
 /** German (Deutsch)
@@ -28,6 +30,7 @@ $messages['qqq'] = array(
  */
 $messages['de'] = array(
 	'formelapplet-desc' => 'Fügt [http://wiki.formelapplet.de FormelApplets] zu Seiten hinzu',
+	'formelapplet-nojava' => 'Bitte installieren Sie [http://java.com Java], um diese Seite nutzen zu können.',
 );
 
 /** Japanese (日本語)
