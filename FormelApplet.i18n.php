@@ -26,11 +26,33 @@ $messages['qqq'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Metalhead64/Rudolf Grossmann
  */
 $messages['de'] = array(
-	'formelapplet-desc' => 'Fügt [http://wiki.formelapplet.de FormelApplets] zu Seiten hinzu',
+	'formelapplet-desc' => 'Ermöglicht die Nutzung von [http://wiki.formelapplet.de FormelApplets] auf Seiten',
 	'formelapplet-nojava' => 'Bitte installieren Sie [http://java.com Java], um diese Seite nutzen zu können.',
+);
+
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'formelapplet-desc' => 'Bokam aplety [http://wiki.formelapplet.de FormelApplet] pśidaś',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'formelapplet-desc' => 'הוספת יישומוני [http://wiki.formelapplet.de FormelApplet] לדפים',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'formelapplet-desc' => 'Stronam aplety [http://wiki.formelapplet.de FormelApplet] přidać',
 );
 
 /** Japanese (日本語)
@@ -38,5 +60,26 @@ $messages['de'] = array(
  */
 $messages['ja'] = array(
 	'formelapplet-desc' => 'ページに数式アプレット [http://wiki.formelapplet.de FormelApplet] を追加する',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'formelapplet-desc' => 'Додај го прилогот [http://wiki.formelapplet.de FormelApplet] во страниците',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'formelapplet-desc' => "Iżżid [http://wiki.formelapplet.de FormelApplet] ''applets'' lill-paġni",
+);
+
+/** Tagalog (Tagalog)
+ * @author Sky Harbor
+ */
+$messages['tl'] = array(
+	'formelapplet-desc' => "Magdagdag ng ''applet'' na [http://wiki.formelapplet.de FormelApplet] sa mga pahina",
 );
 
