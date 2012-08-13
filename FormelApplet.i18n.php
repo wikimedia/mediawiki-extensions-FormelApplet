@@ -31,6 +31,13 @@ $messages['qqq'] = array(
  */
 $messages['de'] = array(
 	'formelapplet-desc' => 'Ermöglicht die Nutzung von [http://wiki.formelapplet.de FormelApplets] auf Seiten',
+	'formelapplet-nojava' => 'Bitte installiere [http://java.com Java], um diese Seite nutzen zu können.',
+);
+
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
+ */
+$messages['de-formal'] = array(
 	'formelapplet-nojava' => 'Bitte installieren Sie [http://java.com Java], um diese Seite nutzen zu können.',
 );
 
@@ -39,6 +46,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'formelapplet-desc' => 'Bokam aplety [http://wiki.formelapplet.de FormelApplet] pśidaś',
+	'formelapplet-nojava' => 'Pšosym instalěruj [http://java.com Java], aby toś ten bok wužywał.',
 );
 
 /** Hebrew (עברית)
@@ -53,6 +61,14 @@ $messages['he'] = array(
  */
 $messages['hsb'] = array(
 	'formelapplet-desc' => 'Stronam aplety [http://wiki.formelapplet.de FormelApplet] přidać',
+	'formelapplet-nojava' => 'Prošu instaluj [http://java.com Java], zo by tutu stronu wužiwał.',
+);
+
+/** Italian (italiano)
+ * @author F. Cosoleto
+ */
+$messages['it'] = array(
+	'formelapplet-nojava' => 'È necessario installare [http://java.com Java] per il funzionamento di questa pagina.',
 );
 
 /** Japanese (日本語)
@@ -67,6 +83,7 @@ $messages['ja'] = array(
  */
 $messages['mk'] = array(
 	'formelapplet-desc' => 'Додај го прилогот [http://wiki.formelapplet.de FormelApplet] во страниците',
+	'formelapplet-nojava' => 'Инсталирајте [http://java.com Java] за да можете да ја користите страницава.',
 );
 
 /** Maltese (Malti)
@@ -76,10 +93,20 @@ $messages['mt'] = array(
 	'formelapplet-desc' => "Iżżid [http://wiki.formelapplet.de FormelApplet] ''applets'' lill-paġni",
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
+	'formelapplet-nojava' => 'Installeer [http://java.com Java] om deze pagina te gebruiken.',
+);
+
 /** Tagalog (Tagalog)
+ * @author AnakngAraw
  * @author Sky Harbor
  */
 $messages['tl'] = array(
 	'formelapplet-desc' => "Magdagdag ng ''applet'' na [http://wiki.formelapplet.de FormelApplet] sa mga pahina",
+	'formelapplet-nojava' => 'Paki iluklok ang [http://java.com Java] upang magamit ang pahinang ito.',
 );
 
