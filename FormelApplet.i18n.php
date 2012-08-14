@@ -65,9 +65,11 @@ $messages['hsb'] = array(
 );
 
 /** Italian (italiano)
+ * @author Darth Kule
  * @author F. Cosoleto
  */
 $messages['it'] = array(
+	'formelapplet-desc' => 'Aggiunge gli applet [http://wiki.formelapplet.de FormelApplet] alle pagine',
 	'formelapplet-nojava' => 'È necessario installare [http://java.com Java] per il funzionamento di questa pagina.',
 );
 
@@ -99,6 +101,13 @@ $messages['mt'] = array(
 $messages['nl'] = array(
 	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
 	'formelapplet-nojava' => 'Installeer [http://java.com Java] om deze pagina te gebruiken.',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'formelapplet-nojava' => 'د دې مخ کارولو لپاره [http://java.com جاوا] نصبه کړۍ.',
 );
 
 /** Tagalog (Tagalog)
