@@ -25,6 +25,13 @@ $messages['qqq'] = array(
 	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'formelapplet-nojava' => 'Mar plij stalit [http://java.com Java] evit implijout ar bajenn-mañ.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64/Rudolf Grossmann
@@ -49,11 +56,20 @@ $messages['dsb'] = array(
 	'formelapplet-nojava' => 'Pšosym instalěruj [http://java.com Java], aby toś ten bok wužywał.',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'formelapplet-desc' => 'Engade applets de [http://wiki.formelapplet.de FormelApplet] ás páxinas',
+	'formelapplet-nojava' => 'Instale o [http://java.com Java] para usar esta páxina.',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
 $messages['he'] = array(
 	'formelapplet-desc' => 'הוספת יישומוני [http://wiki.formelapplet.de FormelApplet] לדפים',
+	'formelapplet-nojava' => "נא להתקין [http://java.com ג'אווה ג'אווה] כדי להשתמש בדף הזה.",
 );
 
 /** Upper Sorbian (hornjoserbsce)
