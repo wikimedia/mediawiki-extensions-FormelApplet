@@ -56,6 +56,14 @@ $messages['dsb'] = array(
 	'formelapplet-nojava' => 'Pšosym instalěruj [http://java.com Java], aby toś ten bok wužywał.',
 );
 
+/** Spanish (español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'formelapplet-desc' => 'Añade applets de [http://wiki.formelapplet.de FormelApplet] a las páginas',
+	'formelapplet-nojava' => 'Instala [http://java.com Java] para usar esta página.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
