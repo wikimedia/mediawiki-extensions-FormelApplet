@@ -64,6 +64,13 @@ $messages['es'] = array(
 	'formelapplet-nojava' => 'Instala [http://java.com Java] para usar esta página.',
 );
 
+/** French (français)
+ * @author Tititou36
+ */
+$messages['fr'] = array(
+	'formelapplet-nojava' => 'Vous devez installer [http://java.com Java] pour utiliser cette page.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
