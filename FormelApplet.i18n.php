@@ -109,6 +109,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'formelapplet-desc' => 'ページに数式アプレット [http://wiki.formelapplet.de FormelApplet] を追加する',
+	'formelapplet-nojava' => 'このページを使用するには [http://java.com Java] をインストールしてください。',
 );
 
 /** Macedonian (македонски)
