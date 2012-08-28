@@ -135,6 +135,14 @@ $messages['nl'] = array(
 	'formelapplet-nojava' => 'Installeer [http://java.com Java] om deze pagina te gebruiken.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'formelapplet-desc' => 'Gionta applet [http://wiki.formelapplet.de FormelApplet] a le pagine',
+	'formelapplet-nojava' => 'Për piasì instaa [http://java.com Java] për dovré sta pagina.',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
