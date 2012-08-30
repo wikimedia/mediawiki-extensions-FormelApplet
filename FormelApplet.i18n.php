@@ -136,11 +136,12 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'formelapplet-desc' => 'Gionta applet [http://wiki.formelapplet.de FormelApplet] a le pagine',
-	'formelapplet-nojava' => 'Për piasì instaa [http://java.com Java] për dovré sta pagina.',
+	'formelapplet-desc' => "Gionté l'applet [http://wiki.formelapplet.de FormelApplet] a le pàgine",
+	'formelapplet-nojava' => "Për piasì, ch'a anstala [http://java.com Java] për dovré costa pàgina.",
 );
 
 /** Pashto (پښتو)
