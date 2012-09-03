@@ -145,6 +145,14 @@ $messages['nl'] = array(
 	'formelapplet-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
 );
 
+/** Polish (polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'formelapplet-desc' => 'Dodaj aplety [http://wiki.formelapplet.de FormelApplet] na stronach',
+	'formelapplet-nojava' => 'Zainstaluj [http://java.com Javę] by korzystać z tej strony.',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
