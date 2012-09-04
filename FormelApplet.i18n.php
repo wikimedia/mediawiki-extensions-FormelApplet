@@ -23,11 +23,14 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Garrett Brown/Rudolf Grossmann
+ * @author Kghbln
  */
 $messages['qqq'] = array(
 	'formelapplet-desc' => '{{desc}}',
 	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.',
-	'formelapplet-missing-parameter' => 'Error message if parameter width or height or term/solution missing.',
+	'formelapplet-missing-parameter' => 'Error message if parameter width or height or term/solution missing.
+
+{{doc-important|Do not translate the parameters "width", "height" or "term/solution".}}',
 	'formelapplet-file-not-found' => 'Error message if file not found.',
 	'formelapplet-error' => 'General part of error message.',
 );
@@ -41,14 +44,15 @@ $messages['br'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  * @author Metalhead64/Rudolf Grossmann
  */
 $messages['de'] = array(
 	'formelapplet-desc' => 'Ermöglicht die Nutzung von [http://wiki.formelapplet.de FormelApplets] auf Seiten',
 	'formelapplet-nojava' => 'Bitte installiere $1, um diese Seite nutzen zu können.',
-	'formelapplet-missing-parameter' => 'Fehlender Parameter (width oder height oder term/solution).',
-	'formelapplet-file-not-found' => 'Datei $1 nicht gefunden.',
-	'formelapplet-error' => 'Fehler in der FormelApplet-MediaWiki-Extension: <em>$1</em>',
+	'formelapplet-missing-parameter' => 'Ein Parameter wurde nicht angegeben und fehlt daher („width“, „height“ oder „term/solution“).',
+	'formelapplet-file-not-found' => 'Die Datei $1 wurde nicht gefunden.',
+	'formelapplet-error' => 'Bei der MediaWiki-Programmerweiterung FormelApplet ist ein Fehler aufgetreten: <em>$1</em>',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -87,6 +91,9 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'formelapplet-desc' => 'Engade applets de [http://wiki.formelapplet.de FormelApplet] ás páxinas',
 	'formelapplet-nojava' => 'Instale o $1 para usar esta páxina.',
+	'formelapplet-missing-parameter' => 'Falta o parámetro ("width" ou "height" ou "term/solution").',
+	'formelapplet-file-not-found' => 'Non se atopou o ficheiro "$1".',
+	'formelapplet-error' => 'Erro na extensión FormelApplet de MediaWiki: <em>$1</em>',
 );
 
 /** Hebrew (עברית)
@@ -94,7 +101,7 @@ $messages['gl'] = array(
  */
 $messages['he'] = array(
 	'formelapplet-desc' => 'הוספת יישומוני [http://wiki.formelapplet.de FormelApplet] לדפים',
-	'formelapplet-nojava' => "נא להתקין [http://java.com ג'אווה ג'אווה] כדי להשתמש בדף הזה.",
+	'formelapplet-nojava' => 'נא להתקין $1 כדי להשתמש בדף הזה.',
 );
 
 /** Upper Sorbian (hornjoserbsce)
@@ -120,6 +127,9 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'formelapplet-desc' => 'ページに数式アプレット [http://wiki.formelapplet.de FormelApplet] を追加する',
 	'formelapplet-nojava' => 'このページを使用するには $1 をインストールしてください。',
+	'formelapplet-missing-parameter' => 'パラメーター (width、height、term/solution のいずれか) がありません。',
+	'formelapplet-file-not-found' => 'ファイル $1 が見つかりません。',
+	'formelapplet-error' => 'FormelApplet MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>',
 );
 
 /** Macedonian (македонски)
@@ -128,6 +138,9 @@ $messages['ja'] = array(
 $messages['mk'] = array(
 	'formelapplet-desc' => 'Додај го прилогот [http://wiki.formelapplet.de FormelApplet] во страниците',
 	'formelapplet-nojava' => 'Инсталирајте $1 за да можете да ја користите страницава.',
+	'formelapplet-missing-parameter' => 'Недостасува параметар (width или height или term/solution).',
+	'formelapplet-file-not-found' => 'Податотеката $1 не е пронајдена.',
+	'formelapplet-error' => 'Грешка во додатокот FormelApplet: <em>$1</em>',
 );
 
 /** Maltese (Malti)
@@ -150,7 +163,7 @@ $messages['nl'] = array(
  */
 $messages['pl'] = array(
 	'formelapplet-desc' => 'Dodaj aplety [http://wiki.formelapplet.de FormelApplet] na stronach',
-	'formelapplet-nojava' => 'Zainstaluj [http://java.com Javę] by korzystać z tej strony.',
+	'formelapplet-nojava' => 'Zainstaluj $1 by korzystać z tej strony.',
 );
 
 /** Piedmontese (Piemontèis)
@@ -166,7 +179,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'formelapplet-nojava' => 'د دې مخ کارولو لپاره [http://java.com جاوا] نصبه کړۍ.',
+	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصبه کړۍ.',
 );
 
 /** Tagalog (Tagalog)
@@ -176,5 +189,8 @@ $messages['ps'] = array(
 $messages['tl'] = array(
 	'formelapplet-desc' => "Magdagdag ng ''applet'' na [http://wiki.formelapplet.de FormelApplet] sa mga pahina",
 	'formelapplet-nojava' => 'Paki iluklok ang $1 upang magamit ang pahinang ito.',
+	'formelapplet-missing-parameter' => 'Nawawalang parametro (width o height o term/solution).',
+	'formelapplet-file-not-found' => 'Hindi natagpuan ang talaksang $1.',
+	'formelapplet-error' => 'Kamalian sa loob ng dugtong ng MediaWiki na FormelApplet: <em>$1</em>',
 );
 
