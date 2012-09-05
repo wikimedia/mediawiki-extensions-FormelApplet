@@ -68,6 +68,9 @@ $messages['de-formal'] = array(
 $messages['dsb'] = array(
 	'formelapplet-desc' => 'Bokam aplety [http://wiki.formelapplet.de FormelApplet] pśidaś',
 	'formelapplet-nojava' => 'Pšosym instalěruj $1, aby toś ten bok wužywał.',
+	'formelapplet-missing-parameter' => 'Felujucy parameter ("width", "height" abo "term/solution").',
+	'formelapplet-file-not-found' => 'Dataja $1 njejo se namakała.',
+	'formelapplet-error' => 'Zmólka w rozšyrjenju MediaWiki FormelApplet: <em>$1</em>',
 );
 
 /** Spanish (español)
@@ -76,13 +79,21 @@ $messages['dsb'] = array(
 $messages['es'] = array(
 	'formelapplet-desc' => 'Añade applets de [http://wiki.formelapplet.de FormelApplet] a las páginas',
 	'formelapplet-nojava' => 'Instala $1 para usar esta página.',
+	'formelapplet-missing-parameter' => 'Falta un parámetro ("width" o "height" o "term/solution").',
+	'formelapplet-file-not-found' => 'No se encuentra el archivo $1.',
+	'formelapplet-error' => 'Error en la extensión FormelApplet de MediaWiki: <em>$1</em>',
 );
 
 /** French (français)
+ * @author Cquoi
  * @author Tititou36
  */
 $messages['fr'] = array(
+	'formelapplet-desc' => 'Ajoutez les applets [http://wiki.formelapplet.de FormelApplet] aux pages.',
 	'formelapplet-nojava' => 'Vous devez installer $1 pour utiliser cette page.',
+	'formelapplet-missing-parameter' => 'Paramètre manquant (width or height or term/solution).',
+	'formelapplet-file-not-found' => 'Fichier  $1  introuvable.',
+	'formelapplet-error' => "Erreur dans l'extension  MediaWiki FormelApplet : <em>$1</em>",
 );
 
 /** Galician (galego)
@@ -110,15 +121,22 @@ $messages['he'] = array(
 $messages['hsb'] = array(
 	'formelapplet-desc' => 'Stronam aplety [http://wiki.formelapplet.de FormelApplet] přidać',
 	'formelapplet-nojava' => 'Prošu instaluj $1, zo by tutu stronu wužiwał.',
+	'formelapplet-missing-parameter' => 'Falowacy parameter ("width", "height" abo "term/solution").',
+	'formelapplet-file-not-found' => 'Dataja $1 njeje so namakała.',
+	'formelapplet-error' => 'Zmylk w rozšěrjenju MediaWiki FormelApplet: <em>$1</em>',
 );
 
 /** Italian (italiano)
+ * @author Beta16
  * @author Darth Kule
  * @author F. Cosoleto
  */
 $messages['it'] = array(
 	'formelapplet-desc' => 'Aggiunge gli applet [http://wiki.formelapplet.de FormelApplet] alle pagine',
 	'formelapplet-nojava' => 'È necessario installare $1 per il funzionamento di questa pagina.',
+	'formelapplet-missing-parameter' => 'Parametro mancante (width, height o term/solution).',
+	'formelapplet-file-not-found' => 'File $1 non trovato',
+	'formelapplet-error' => "Errore nell'estensione MediaWiki FormelApplet: <em>$1</em>",
 );
 
 /** Japanese (日本語)
