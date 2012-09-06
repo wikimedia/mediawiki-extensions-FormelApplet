@@ -150,6 +150,15 @@ $messages['ja'] = array(
 	'formelapplet-error' => 'FormelApplet MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'formelapplet-nojava' => 'Installéiert w.e.g. $1 fir dës Säit ze benotzen.',
+	'formelapplet-file-not-found' => 'De Fichier $1 gouf net fonnt.',
+	'formelapplet-error' => 'Feeler an der Erweiderung MediaWiki FormalApplet: <em>$1</em>',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
