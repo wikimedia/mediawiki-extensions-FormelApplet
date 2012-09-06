@@ -42,14 +42,7 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
 
         // Special parameters, not for parameter (name - value) tags. Use lowercase for sake of comparison!
         $special_parameters = array('width', 'height', 'solution', 'term', 'uselocaljar', 'substimage', 'name', 'debug', 'usegf04');
-        // this works
-        // $noJavaText = wfMessage( 'formelapplet-nojava' )->rawParams( '<a href="http://java.com"> Java</a>' )->plain();
-        // this is Siebrands improvement
         $noJavaText = wfMessage( 'formelapplet-nojava', '[http://java.com Java]' )->parse();
-        // this doesn't work
-        // $noJavaText = wfMessage( 'formelapplet-nojava' )->rawParams( '[http://java.com Java]' )->plain();
-        // this also doesn't work
-        // $noJavaText = wfMessage( 'formelapplet-nojava' )->rawParams( '[http://java.com Java]' )->parse();
 
         //Look for parameter 'usegf04'.
         $usegf04 = isset($args['usegf04']) ? $args['usegf04'] : 'false';
