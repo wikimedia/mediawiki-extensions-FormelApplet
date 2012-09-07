@@ -178,11 +178,13 @@ $messages['mt'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
 	'formelapplet-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
+	'formelapplet-file-not-found' => 'Bestand $1 is niet gevonden.',
 );
 
 /** Polish (polski)
