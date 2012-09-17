@@ -150,6 +150,17 @@ $messages['ja'] = array(
 	'formelapplet-error' => 'FormelApplet MediaWiki 拡張機能でエラーが発生しました: <em>$1</em>',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'formelapplet-desc' => 'Määd et müjjelesch, [http://wiki.formelapplet.de FormelApplet]s en Sigge ze bruche.',
+	'formelapplet-nojava' => 'Donn $1 enschtallere, öm heh di Sigg bruche ze künne.',
+	'formelapplet-missing-parameter' => 'Ene Parrameeter fählt (<code lang="en">width</code> odder <code lang="en">height</code> odder <code lang="en">term</code>/<code lang="en">solution</code>).',
+	'formelapplet-file-not-found' => 'Di Dattei „$1“ ham_mer nit jefonge.',
+	'formelapplet-error' => 'Ene Fähler es opjetrodde em MediaWiki-Zohsazprojramm FormelApplet: <em>$1</em>',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
