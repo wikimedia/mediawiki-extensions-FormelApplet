@@ -220,7 +220,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصبه کړۍ.',
+	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصب کړۍ.',
 );
 
 /** Tagalog (Tagalog)
