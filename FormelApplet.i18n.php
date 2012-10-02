@@ -56,7 +56,7 @@ $messages['de'] = array(
 	'formelapplet-error' => 'Bei der MediaWiki-Programmerweiterung FormelApplet ist ein Fehler aufgetreten: <em>$1</em>',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  */
 $messages['de-formal'] = array(
