@@ -114,6 +114,9 @@ $messages['gl'] = array(
 $messages['he'] = array(
 	'formelapplet-desc' => 'הוספת יישומוני [http://wiki.formelapplet.de FormelApplet] לדפים',
 	'formelapplet-nojava' => 'נא להתקין $1 כדי להשתמש בדף הזה.',
+	'formelapplet-missing-parameter' => 'פרמטר חסר (width או height או term/solution)',
+	'formelapplet-file-not-found' => 'הקובץ $1 לא נמצא.',
+	'formelapplet-error' => 'שגיאה בהרחבת מדיה־ויקי FormelApplet&rlm;: <em>$1</em>',
 );
 
 /** Upper Sorbian (hornjoserbsce)
