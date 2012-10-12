@@ -35,6 +35,14 @@ $messages['qqq'] = array(
 	'formelapplet-error' => 'General part of error message.',
 );
 
+/** Asturian (asturianu)
+ * @author Rudolf.Grossmann
+ */
+$messages['ast'] = array(
+	'formelapplet-desc' => 'Amestar les miniaplicaciones [http://wiki.formelapplet.de FormelApplet] 
+nes páxines',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -167,9 +175,13 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Rudolf.Grossmann
  */
 $messages['lb'] = array(
+	'formelapplet-desc' => "Setzt d'[http://wiki.formelapplet.de FormelApplet]-Applets op Säiten der
+bäi",
 	'formelapplet-nojava' => 'Installéiert w.e.g. $1 fir dës Säit ze benotzen.',
+	'formelapplet-missing-parameter' => "Et feelt e Parameter ('width' oder 'height' oder 'term/solution').",
 	'formelapplet-file-not-found' => 'De Fichier $1 gouf net fonnt.',
 	'formelapplet-error' => 'Feeler an der MediaWiki-Erweiderung FormalApplet: <em>$1</em>',
 );
