@@ -211,7 +211,9 @@ $messages['mt'] = array(
 $messages['nl'] = array(
 	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
 	'formelapplet-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
+	'formelapplet-missing-parameter' => 'Er mist een paramter ("width", "height" of "term/solution").',
 	'formelapplet-file-not-found' => 'Bestand $1 is niet gevonden.',
+	'formelapplet-error' => 'Fout in FormelApplet: <em>$1</em>',
 );
 
 /** Polish (polski)
