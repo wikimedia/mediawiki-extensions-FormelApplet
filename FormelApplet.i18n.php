@@ -37,10 +37,11 @@ $messages['qqq'] = array(
 
 /** Asturian (asturianu)
  * @author Rudolf.Grossmann
+ * @author Xuacu
  */
 $messages['ast'] = array(
 	'formelapplet-desc' => 'Amestar les miniaplicaciones [http://wiki.formelapplet.de FormelApplet] 
-nes páxines',
+nes páxines.',
 );
 
 /** Breton (brezhoneg)
@@ -251,4 +252,3 @@ $messages['tl'] = array(
 	'formelapplet-file-not-found' => 'Hindi natagpuan ang talaksang $1.',
 	'formelapplet-error' => 'Kamalian sa loob ng dugtong ng MediaWiki na FormelApplet: <em>$1</em>',
 );
-
