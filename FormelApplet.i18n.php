@@ -252,3 +252,14 @@ $messages['tl'] = array(
 	'formelapplet-file-not-found' => 'Hindi natagpuan ang talaksang $1.',
 	'formelapplet-error' => 'Kamalian sa loob ng dugtong ng MediaWiki na FormelApplet: <em>$1</em>',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'formelapplet-desc' => '向页面添加 [http://wiki.formelapplet.de FormelApplet] 小程序。',
+	'formelapplet-nojava' => '请安装 $1 以使用此页。',
+	'formelapplet-missing-parameter' => '缺少参数（宽度或高度或条件/答案）。',
+	'formelapplet-file-not-found' => '找不到文件 $1。',
+	'formelapplet-error' => 'MediaWiki扩展FormelApplet中的错误：<em>$1</em>',
+);
