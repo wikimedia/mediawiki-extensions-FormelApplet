@@ -72,6 +72,13 @@ $messages['de-formal'] = array(
 	'formelapplet-nojava' => 'Bitte installieren Sie $1, um diese Seite nutzen zu können.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'formelapplet-file-not-found' => 'Zey $1 theba çıniyo',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
@@ -212,7 +219,7 @@ $messages['mt'] = array(
 $messages['nl'] = array(
 	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
 	'formelapplet-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
-	'formelapplet-missing-parameter' => 'Er mist een paramter ("width", "height" of "term/solution").',
+	'formelapplet-missing-parameter' => 'Er mist een parameter ("width", "height" of "term/solution").',
 	'formelapplet-file-not-found' => 'Bestand $1 is niet gevonden.',
 	'formelapplet-error' => 'Fout in FormelApplet: <em>$1</em>',
 );
