@@ -101,6 +101,14 @@ $messages['es'] = array(
 	'formelapplet-error' => 'Error en la extensión FormelApplet de MediaWiki: <em>$1</em>',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'formelapplet-nojava' => 'Asenna $1, jos haluat käyttää tätä sivua.',
+	'formelapplet-file-not-found' => 'Tiedostoa $1 ei löytynyt.',
+);
+
 /** French (français)
  * @author Cquoi
  * @author Tititou36
