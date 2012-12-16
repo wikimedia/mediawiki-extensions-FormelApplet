@@ -268,6 +268,17 @@ $messages['tl'] = array(
 	'formelapplet-error' => 'Kamalian sa loob ng dugtong ng MediaWiki na FormelApplet: <em>$1</em>',
 );
 
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'formelapplet-desc' => 'Додати плагін [http://wiki.formelapplet.de FormelApplet] до сторінок.',
+	'formelapplet-nojava' => 'Будь ласка, встановіть $1 для того, щоб використовувати цю сторінку.',
+	'formelapplet-missing-parameter' => 'Пропущений параметр (width, height, або term/solution).',
+	'formelapplet-file-not-found' => 'Файл $1 не знайдено.',
+	'formelapplet-error' => 'Помилка у розширенні MediaWiki FormelApplet: <em>$1</em>',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Yfdyh000
  */
