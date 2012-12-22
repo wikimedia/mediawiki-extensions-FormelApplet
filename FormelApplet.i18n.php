@@ -52,6 +52,13 @@ $messages['br'] = array(
 	'formelapplet-file-not-found' => "N'eo ket bet kavet ar restr $1",
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'formelapplet-file-not-found' => 'Soubor $1 nebyl nalezen.',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -99,6 +106,14 @@ $messages['es'] = array(
 	'formelapplet-missing-parameter' => 'Falta un parámetro ("width" o "height" o "term/solution").',
 	'formelapplet-file-not-found' => 'No se encuentra el archivo $1.',
 	'formelapplet-error' => 'Error en la extensión FormelApplet de MediaWiki: <em>$1</em>',
+);
+
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'formelapplet-nojava' => 'برای استفاده از این صفحه لطفاً $1 را نصب کنید.',
+	'formelapplet-file-not-found' => 'پرونده $1 یافت نشد.',
 );
 
 /** Finnish (suomi)
@@ -152,6 +167,15 @@ $messages['hsb'] = array(
 	'formelapplet-missing-parameter' => 'Falowacy parameter ("width", "height" abo "term/solution").',
 	'formelapplet-file-not-found' => 'Dataja $1 njeje so namakała.',
 	'formelapplet-error' => 'Zmylk w rozšěrjenju MediaWiki FormelApplet: <em>$1</em>',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'formelapplet-nojava' => 'Mohon instal $1 untuk memakai halaman ini.',
+	'formelapplet-missing-parameter' => 'Parameter hilang (width atau height atau term/solution).',
+	'formelapplet-file-not-found' => 'Berkas $1 tidak ditemukan.',
 );
 
 /** Italian (italiano)
