@@ -97,6 +97,13 @@ $messages['dsb'] = array(
 	'formelapplet-error' => 'Zmólka w rozšyrjenju MediaWiki FormelApplet: <em>$1</em>',
 );
 
+/** Esperanto (Esperanto)
+ * @author Yekrats
+ */
+$messages['eo'] = array(
+	'formelapplet-file-not-found' => 'Dosiero $1 ne troviĝis.',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
@@ -242,6 +249,9 @@ $messages['mk'] = array(
  */
 $messages['mt'] = array(
 	'formelapplet-desc' => "Iżżid [http://wiki.formelapplet.de FormelApplet] ''applets'' lill-paġni",
+	'formelapplet-nojava' => "Jekk jogħġbok installa $1 sabiex tuża' din il-paġna.",
+	'formelapplet-missing-parameter' => 'Parametru nieqes (width, height jew term/solution).',
+	'formelapplet-file-not-found' => 'Il-fajl $1 ma nstabx.',
 );
 
 /** Dutch (Nederlands)
@@ -278,6 +288,13 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصب کړۍ.',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'formelapplet-file-not-found' => '$1 ගොනුව හමු නොවුණි.',
 );
 
 /** Tagalog (Tagalog)
