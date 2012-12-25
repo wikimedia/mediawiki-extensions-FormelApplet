@@ -115,6 +115,13 @@ $messages['es'] = array(
 	'formelapplet-error' => 'Error en la extensión FormelApplet de MediaWiki: <em>$1</em>',
 );
 
+/** Estonian (eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'formelapplet-file-not-found' => 'Faili $1 ei leidu.',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  */
@@ -268,10 +275,14 @@ $messages['nl'] = array(
 
 /** Polish (polski)
  * @author BeginaFelicysym
+ * @author Matma Rex
  */
 $messages['pl'] = array(
 	'formelapplet-desc' => 'Dodaj aplety [http://wiki.formelapplet.de FormelApplet] na stronach',
 	'formelapplet-nojava' => 'Zainstaluj $1 by korzystać z tej strony.',
+	'formelapplet-missing-parameter' => 'Brakujący parametr (width, height lub term/solution).',
+	'formelapplet-file-not-found' => 'Nie odnaleziono pliku „$1”.',
+	'formelapplet-error' => 'Błąd rozszerzenia MediaWiki FormelApplet: <em>$1</em>',
 );
 
 /** Piedmontese (Piemontèis)
@@ -281,6 +292,9 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'formelapplet-desc' => "Gionté l'applet [http://wiki.formelapplet.de FormelApplet] a le pàgine",
 	'formelapplet-nojava' => "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
+	'formelapplet-missing-parameter' => 'Paràmetr mancant (larghëssa o autëssa o term/solutiuon).',
+	'formelapplet-file-not-found' => 'Archivi $1 pa trovà.',
+	'formelapplet-error' => "Eror ant l'estension FormelApplet MediaWiki: <em>$1</em>",
 );
 
 /** Pashto (پښتو)
@@ -288,6 +302,13 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصب کړۍ.',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'formelapplet-file-not-found' => 'Fișierul $1 nu a fost găsit.',
 );
 
 /** Sinhala (සිංහල)
