@@ -318,6 +318,14 @@ $messages['si'] = array(
 	'formelapplet-file-not-found' => '$1 ගොනුව හමු නොවුණි.',
 );
 
+/** Swedish (svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'formelapplet-nojava' => 'Var god installera $1 för att använda denna sida.',
+	'formelapplet-file-not-found' => 'Filen $1 hittades inte.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  * @author Sky Harbor
