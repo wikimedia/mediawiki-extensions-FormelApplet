@@ -97,6 +97,13 @@ $messages['dsb'] = array(
 	'formelapplet-error' => 'Zmólka w rozšyrjenju MediaWiki FormelApplet: <em>$1</em>',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'formelapplet-file-not-found' => 'Το αρχείο $1 δεν βρέθηκε.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
