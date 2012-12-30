@@ -157,6 +157,13 @@ $messages['fr'] = array(
 	'formelapplet-error' => "Erreur dans l'extension  MediaWiki FormelApplet : <em>$1</em>",
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'formelapplet-file-not-found' => 'Fichiér $1 pas trovâ.',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
