@@ -306,7 +306,7 @@ $messages['pl'] = array(
 $messages['pms'] = array(
 	'formelapplet-desc' => "Gionté l'applet [http://wiki.formelapplet.de FormelApplet] a le pàgine",
 	'formelapplet-nojava' => "Për piasì, ch'a anstala $1 për dovré costa pàgina.",
-	'formelapplet-missing-parameter' => 'Paràmetr mancant (larghëssa o autëssa o term/solutiuon).',
+	'formelapplet-missing-parameter' => 'Paràmetr mancant (width o height o term/solution).',
 	'formelapplet-file-not-found' => 'Archivi $1 pa trovà.',
 	'formelapplet-error' => "Eror ant l'estension FormelApplet MediaWiki: <em>$1</em>",
 );
