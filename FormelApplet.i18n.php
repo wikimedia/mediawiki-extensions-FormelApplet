@@ -265,6 +265,15 @@ $messages['mk'] = array(
 	'formelapplet-error' => 'Грешка во додатокот FormelApplet: <em>$1</em>',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'formelapplet-nojava' => 'Sila pasang $1 untuk menggunakan halaman ini.',
+	'formelapplet-file-not-found' => 'Fail $1 tidak dijumpai.',
+	'formelapplet-error' => 'Ralat pada sambungan MediaWiki FormelApplet: <em>$1</em>',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
