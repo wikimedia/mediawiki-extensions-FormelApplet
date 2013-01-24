@@ -334,6 +334,13 @@ $messages['ro'] = array(
 	'formelapplet-file-not-found' => 'Fișierul $1 nu a fost găsit.',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'formelapplet-file-not-found' => 'File $1 non acchiate.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
