@@ -341,6 +341,14 @@ $messages['roa-tara'] = array(
 	'formelapplet-file-not-found' => 'File $1 non acchiate.',
 );
 
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'formelapplet-nojava' => 'Пожалуйста, установите $1, чтобы использовать эту страницу.',
+	'formelapplet-file-not-found' => 'Файл $1 не найден.',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
