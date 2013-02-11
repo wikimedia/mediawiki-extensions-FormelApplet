@@ -49,7 +49,7 @@ nes páxines.',
  */
 $messages['br'] = array(
 	'formelapplet-nojava' => 'Mar plij stalit $1 evit implijout ar bajenn-mañ.',
-	'formelapplet-file-not-found' => "N'eo ket bet kavet ar restr $1",
+	'formelapplet-file-not-found' => "N'eo ket bet kavet ar restr $1.",
 );
 
 /** Czech (česky)
