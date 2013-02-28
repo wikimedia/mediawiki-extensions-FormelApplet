@@ -24,9 +24,10 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Garrett Brown/Rudolf Grossmann
  * @author Kghbln
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'formelapplet-desc' => '{{desc}}',
+	'formelapplet-desc' => '{{desc|name=Formel Applet|url=http://www.mediawiki.org/wiki/Extension:FormelApplet}}',
 	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.',
 	'formelapplet-missing-parameter' => 'Error message if parameter width or height or term/solution missing.
 
