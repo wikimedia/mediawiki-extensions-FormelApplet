@@ -352,6 +352,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'formelapplet-nojava' => 'Pe piacere installe $1 pe ausà sta pàgene.',
 	'formelapplet-file-not-found' => 'File $1 non acchiate.',
 );
 
