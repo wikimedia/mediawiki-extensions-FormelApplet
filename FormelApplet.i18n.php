@@ -43,6 +43,10 @@ $messages['qqq'] = array(
 $messages['ast'] = array(
 	'formelapplet-desc' => 'Amestar les miniaplicaciones [http://wiki.formelapplet.de FormelApplet] 
 nes páxines.',
+	'formelapplet-nojava' => 'Instale $1 pa usar esta páxina.',
+	'formelapplet-missing-parameter' => 'Falta un parámetru ("width" o "height" o "term/solution").',
+	'formelapplet-file-not-found' => "Nun s'alcontró el ficheru $1.",
+	'formelapplet-error' => 'Error na estensión FormelApplet de MediaWiki: <em>$1</em>',
 );
 
 /** Breton (brezhoneg)
