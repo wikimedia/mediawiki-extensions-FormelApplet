@@ -32,7 +32,8 @@ $messages['qqq'] = array(
 	'formelapplet-missing-parameter' => 'Error message if parameter width or height or term/solution missing.
 
 {{doc-important|Do not translate the parameters "width", "height" or "term/solution".}}',
-	'formelapplet-file-not-found' => 'Error message if file not found.',
+	'formelapplet-file-not-found' => 'Error message if file not found.
+{{Identical|File not found}}',
 	'formelapplet-error' => 'General part of error message.',
 );
 
