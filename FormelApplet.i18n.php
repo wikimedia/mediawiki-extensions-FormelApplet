@@ -28,13 +28,18 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'formelapplet-desc' => '{{desc|name=Formel Applet|url=http://www.mediawiki.org/wiki/Extension:FormelApplet}}',
-	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.',
+	'formelapplet-nojava' => 'Error message if Java not installed with link where to get from.
+
+Parameters:
+* $1 - "Java" (with link which points to http://java.com); hard-coded',
 	'formelapplet-missing-parameter' => 'Error message if parameter width or height or term/solution missing.
 
 {{doc-important|Do not translate the parameters "width", "height" or "term/solution".}}',
-	'formelapplet-file-not-found' => 'Error message if file not found.
+	'formelapplet-file-not-found' => 'Error message if file not found. Parameters:
+* $1 - filename
 {{Identical|File not found}}',
-	'formelapplet-error' => 'General part of error message.',
+	'formelapplet-error' => 'General part of error message. Parameters:
+* $1 - error message',
 );
 
 /** Asturian (asturianu)
