@@ -208,6 +208,17 @@ $messages['hsb'] = array(
 	'formelapplet-error' => 'Zmylk w rozšěrjenju MediaWiki FormelApplet: <em>$1</em>',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'formelapplet-desc' => 'Adder applets [http://wiki.formelapplet.de FormelApplet] a paginas.',
+	'formelapplet-nojava' => 'Per favor installa $1 pro usar iste pagina.',
+	'formelapplet-missing-parameter' => 'Manca un parametro ("width", "height" o "term/solution").',
+	'formelapplet-file-not-found' => 'File $1 non trovate.',
+	'formelapplet-error' => 'Error in extension MediaWiki "FormelApplet": <em>$1</em>',
+);
+
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
  */
