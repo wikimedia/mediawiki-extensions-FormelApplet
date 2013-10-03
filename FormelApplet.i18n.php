@@ -382,10 +382,14 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author DCamer
+ * @author Okras
  */
 $messages['ru'] = array(
+	'formelapplet-desc' => 'Добавляет апплеты [http://wiki.formelapplet.de FormelApplet] на страницы.',
 	'formelapplet-nojava' => 'Пожалуйста, установите $1, чтобы использовать эту страницу.',
+	'formelapplet-missing-parameter' => 'Отсутствует параметр (width, height или term/solution).',
 	'formelapplet-file-not-found' => 'Файл $1 не найден.',
+	'formelapplet-error' => 'Ошибка в расширении MediaWiki FormelApplet: <em>$1</em>',
 );
 
 /** Sinhala (සිංහල)
