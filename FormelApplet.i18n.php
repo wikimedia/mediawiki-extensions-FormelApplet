@@ -400,11 +400,15 @@ $messages['si'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Jopparn
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'formelapplet-desc' => 'Lägg till [http://wiki.formelapplet.de FormelApplet]-applets till sidor.',
 	'formelapplet-nojava' => 'Var god installera $1 för att använda denna sida.',
+	'formelapplet-missing-parameter' => 'Saknad parameter (bredd eller höjd eller uttryck/lösning).',
 	'formelapplet-file-not-found' => 'Filen $1 hittades inte.',
+	'formelapplet-error' => 'Fel i MediaWiki-tilläggsfunktionen FormelApplet: <em>$1</em>',
 );
 
 /** Tagalog (Tagalog)
