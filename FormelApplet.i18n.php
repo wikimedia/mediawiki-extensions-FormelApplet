@@ -277,10 +277,11 @@ $messages['ksh'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  * @author Rudolf.Grossmann
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'formelapplet-desc' => "Setzt d'[http://wiki.formelapplet.de FormelApplet]-Applets op Säiten der
-bäi",
+bei",
 	'formelapplet-nojava' => 'Installéiert w.e.g. $1 fir dës Säit ze benotzen.',
 	'formelapplet-missing-parameter' => "Et feelt e Parameter ('width' oder 'height' oder 'term/solution').",
 	'formelapplet-file-not-found' => 'De Fichier $1 gouf net fonnt.',
@@ -360,6 +361,17 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'formelapplet-nojava' => 'د دې مخ کارولو لپاره  $1 نصب کړۍ.',
+);
+
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'formelapplet-desc' => 'Adiciona aplicativos [http://wiki.formelapplet.de FormelApplet] às páginas.',
+	'formelapplet-nojava' => 'Por favor, instale $1 para utilizar esta página.',
+	'formelapplet-missing-parameter' => 'Parâmetro em falta (width ou height ou term/solution).',
+	'formelapplet-file-not-found' => 'Arquivo $1 não encontrado.',
+	'formelapplet-error' => 'Erro na extensão FormelApplet: <em>$1</em>',
 );
 
 /** Romanian (română)
