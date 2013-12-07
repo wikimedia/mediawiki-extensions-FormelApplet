@@ -63,7 +63,7 @@ $messages['br'] = array(
 	'formelapplet-file-not-found' => "N'eo ket bet kavet ar restr $1.",
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
@@ -327,7 +327,7 @@ $messages['mt'] = array(
 $messages['nl'] = array(
 	'formelapplet-desc' => "[http://wiki.formelapplet.de FormelApplet]-applets toevoegen aan pagina's",
 	'formelapplet-nojava' => 'Installeer $1 om deze pagina te gebruiken.',
-	'formelapplet-missing-parameter' => 'Er mist een parameter ("width", "height" of "term/solution").',
+	'formelapplet-missing-parameter' => 'Er ontbreekt een parameter ("width", "height" of "term/solution").',
 	'formelapplet-file-not-found' => 'Bestand $1 is niet gevonden.',
 	'formelapplet-error' => 'Fout in FormelApplet: <em>$1</em>',
 );
