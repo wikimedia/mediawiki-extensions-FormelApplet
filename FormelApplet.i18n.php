@@ -141,11 +141,15 @@ $messages['et'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'formelapplet-desc' => 'اضافه کردن برنامه‌های [http://wiki.formelapplet.de FormelApplet]  در صفحه‌ها.',
 	'formelapplet-nojava' => 'برای استفاده از این صفحه لطفاً $1 را نصب کنید.',
+	'formelapplet-missing-parameter' => 'پارامتر گم‌شده (عرض یا ارتفاع یا دوره/راه‌حل).',
 	'formelapplet-file-not-found' => 'پرونده $1 یافت نشد.',
+	'formelapplet-error' => 'خطا در برنامهٔ اپلت گسترهٔ مدیاویکی: <em>$1</em>',
 );
 
 /** Finnish (suomi)
