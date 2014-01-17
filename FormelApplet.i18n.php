@@ -297,7 +297,7 @@ bei",
  */
 $messages['mk'] = array(
 	'formelapplet-desc' => 'Додај го прилогот [http://wiki.formelapplet.de FormelApplet] во страниците',
-	'formelapplet-nojava' => 'Инсталирајте $1 за да можете да ја користите страницава.',
+	'formelapplet-nojava' => 'Воспоставете $1 за да можете да ја користите страницава.',
 	'formelapplet-missing-parameter' => 'Недостасува параметар (width или height или term/solution).',
 	'formelapplet-file-not-found' => 'Податотеката $1 не е пронајдена.',
 	'formelapplet-error' => 'Грешка во додатокот FormelApplet: <em>$1</em>',
