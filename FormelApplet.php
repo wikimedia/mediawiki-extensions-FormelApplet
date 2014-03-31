@@ -3,15 +3,15 @@
  * FormelApplet MediaWiki extension
  *
  * @author Rudolf Grossmann
- * @version 1.3h
  */
 
-$fa_version = "1.3h";
+$fa_version = "1.4.0";
 
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
 // see: http://www.mediawiki.org/wiki/Extension:Java_Applet
 
 $wgHooks['ParserFirstCallInit'][] = 'fa_AppletSetup';
+$wgMessagesDirs['FormelApplet'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['FormelApplet'] = dirname( __FILE__ ) . '/FormelApplet.i18n.php';
 
 $wgExtensionCredits['parserhook'][] = array(
