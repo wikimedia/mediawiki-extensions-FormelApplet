@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Y-M D"
-        ]
-    },
-    "formelapplet-nojava": "Mar plij stalit $1 evit implijout ar bajenn-mañ.",
-    "formelapplet-file-not-found": "N'eo ket bet kavet ar restr $1."
+	"@metadata": {
+		"authors": [
+			"Y-M D"
+		]
+	},
+	"formelapplet-nojava": "Mar plij stalit $1 evit implijout ar bajenn-mañ.",
+	"formelapplet-file-not-found": "N'eo ket bet kavet ar restr $1."
 }

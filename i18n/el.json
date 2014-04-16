@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "ZaDiak"
-        ]
-    },
-    "formelapplet-file-not-found": "Το αρχείο $1 δεν βρέθηκε."
+	"@metadata": {
+		"authors": [
+			"ZaDiak"
+		]
+	},
+	"formelapplet-file-not-found": "Το αρχείο $1 δεν βρέθηκε."
 }
