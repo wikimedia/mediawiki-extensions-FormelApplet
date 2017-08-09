@@ -6,5 +6,6 @@
 	},
 	"formelapplet-desc": "Дадае аплеты [http://wiki.formelapplet.de FormelApplet] да старонак.",
 	"formelapplet-nojava": "Калі ласка, усталюйце $1 для выкарыстаньня гэтай старонкі.",
-	"formelapplet-missing-parameter": "Адсутнічае парамэтар (width, height ці term/solution)."
+	"formelapplet-missing-parameter": "Адсутнічае парамэтар (width, height ці term/solution).",
+	"formelapplet-file-not-found": "Файл $1 ня знойдзены."
 }
