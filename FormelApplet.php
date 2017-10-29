@@ -12,7 +12,6 @@ $fa_version = "1.4.0";
 
 $wgHooks['ParserFirstCallInit'][] = 'fa_AppletSetup';
 $wgMessagesDirs['FormelApplet'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['FormelApplet'] = dirname( __FILE__ ) . '/FormelApplet.i18n.php';
 
 $wgExtensionCredits['parserhook'][] = array(
     'path'           => __FILE__,
