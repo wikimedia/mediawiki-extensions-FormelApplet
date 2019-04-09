@@ -8,7 +8,7 @@
 $fa_version = "1.4.0";
 
 // This MediaWiki extension is based on the Java Applet extension by Phil Trasatti
-// see: http://www.mediawiki.org/wiki/Extension:Java_Applet
+// see: https://www.mediawiki.org/wiki/Extension:Java_Applet
 
 $wgHooks['ParserFirstCallInit'][] = 'fa_AppletSetup';
 $wgMessagesDirs['FormelApplet'] = __DIR__ . '/i18n';
