@@ -4,5 +4,7 @@
 			"Vlad5250"
 		]
 	},
+	"formelapplet-desc": "Dodaj izvršnik [http://wiki.formelapplet.de FormelApplet] u stranice",
+	"formelapplet-nojava": "Molimo instalirajte $1 da biste mogli da koristite ovu stranicu.",
 	"formelapplet-file-not-found": "Datoteka $1 nije pronađena."
 }
