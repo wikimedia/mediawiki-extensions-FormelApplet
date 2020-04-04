@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * FormelApplet MediaWiki extension
  *
@@ -100,7 +103,13 @@ function get_fa_AppletOutput( $input, $args, $parser ) {
               //Magic head "ZIP-" not found. Value of parameter solution/term does not contain ZIP-file but filename.
               $filename = $solution_or_term;
               $debug .= '<p>Parameter solution/term contains filename: ' . $filename . '</p>' . $CRLF;
-              $image= wfLocalFile($filename) ; // Compatibility with MediaWiki >= 1.18.x
+              if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+                // MediaWiki 1.34+
+                $image= MediaWikiServices::getInstance()->getRepoGroup()->getLocalRepo()
+                	->newFile( $filename );
+              } else {
+                $image= wfLocalFile($filename) ; // Compatibility with MediaWiki >= 1.18.x
+              }
 
               // Get the MediaWiki path of the file
               if (isset( $image )) {
