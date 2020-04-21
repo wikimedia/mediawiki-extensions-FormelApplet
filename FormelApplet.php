@@ -25,9 +25,8 @@ $wgExtensionCredits['parserhook'][] = array(
     'version'        => $fa_version
 );
 
-function fa_AppletSetup() {
-        global $wgParser;
-        $wgParser->setHook( 'formelapplet', 'get_fa_AppletOutput' );
+function fa_AppletSetup( $parser ) {
+        $parser->setHook( 'formelapplet', 'get_fa_AppletOutput' );
         return true;
 }
 
